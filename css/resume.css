@@ -1,0 +1,117 @@
+body {
+  background: #222;
+  color: #999;
+  font-family: monospace;
+  margin: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 30px;
+  padding-top: 10px;
+  background: black;
+  margin: 0;
+  height: 150px;
+  align-items: center;
+  opacity: 90%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 20px;
+}
+
+.home {
+  grid-column: 7/8;
+}
+
+.about {
+  grid-column: 8/9;
+}
+
+.resume {
+  grid-column: 10/11;
+  border-bottom: solid white 5px;
+}
+
+.fun {
+  grid-column: 11/12;
+}
+
+img {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.name {
+  text-align: center;
+  grid-column: 2/4;
+  display: flex;
+  align-items: center;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  transition: .5s all ease;
+}
+
+nav > a:hover {
+  border-bottom: solid white 5px;
+}
+
+p, h2 {
+  padding: 0px 5px;
+}
+
+
+span{
+  float:right;
+}
+
+section{
+
+margin-left:20%;
+margin-right:20%;
+margin-bottom:100px;
+background:#111;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 10px 10px  12px black;
+}
+
+section > a{
+  color:#999;
+}
+
+p > a{
+  color: #999;
+}
+
+header{
+  text-align: center;
+}
+
+
+.in{
+  padding-left:20px;
+}
+
+
+.link{
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.link > a{
+  color:#999;
+  padding: 20px;
+  width:10%;
+  background: #111;
+  border-radius: 10px;
+  box-shadow: 10px 10px  12px black;
+}

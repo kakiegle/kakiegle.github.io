@@ -1,0 +1,38 @@
+body {
+  background: #111;
+  color: #999;
+  font-family: monospace;
+  margin: 0;
+}
+
+
+span{
+  float:right;
+}
+
+section{
+
+margin-left:20px;
+margin-right:20px;
+
+background:#111;
+padding: 40px;
+
+}
+
+section > a{
+  color:#999;
+}
+
+p > a{
+  color:#999;
+}
+
+header{
+  text-align: center;
+}
+
+
+.in{
+  padding-left:20px;
+}

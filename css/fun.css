@@ -1,0 +1,485 @@
+body{
+background:#222;
+  color:#999;
+  font-family:monospace;
+  margin:0;
+  height: 180vh;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap:30px;
+  padding-top:10px;
+  background:black;
+  margin:0;
+height:150px;
+align-items: center;
+opacity: 90%;
+position: fixed;
+top:0;
+left:0;
+right:0;
+z-index: 2;
+font-size:20px;
+}
+
+.home{
+  grid-column: 7/8;
+
+}
+
+.about{
+  grid-column: 8/9;
+}
+
+.resume{
+  grid-column: 10/11;
+}
+
+.fun{
+  grid-column: 11/12;
+  border-bottom: solid white 5px;
+}
+
+img{
+  max-width:140px;
+  max-height:140px;
+}
+
+.name{
+  text-align: center;
+grid-column: 2/4;
+display: flex;
+align-items: center;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+    transition: .5s all ease;
+}
+
+a:hover{
+border-bottom: solid white 5px;
+}
+
+p, h2{
+  padding:0px 5px;
+}
+
+
+
+.label{
+  width:270px;
+  height:50px;
+  margin-left:10%;
+  margin-top:200px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+}
+
+
+.card{
+  width:270px;
+  height:400px;
+  margin-left:10%;
+  margin-top:300px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card2{
+  width:270px;
+  height:400px;
+  margin-left:10%;
+  margin-top:800px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card3{
+  width:270px;
+  height:400px;
+  margin-left:10%;
+  margin-top:1300px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 2;
+    position: absolute;
+}
+
+
+
+.card-image{
+  height:200px;
+  background-size:cover;
+  background-position:center;
+    border-radius:10px 10px 0px 0px;
+}
+
+.card-1{
+  background-image:url("../images/fan/bts7.jpg");
+}
+
+.card-2{
+  background-image:url("../images/fan/TheEnd17.jpg");
+}
+
+.card-3{
+  background-image:url("../images/fan/Toga.jpg");
+}
+
+
+.card:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card2:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.line{
+  width:10px;
+  height:400vh;
+  background: black;
+  z-index: 0;
+position: fixed;
+top:0;
+}
+
+.margin{
+height:300vh;
+z-index: 0;
+position: fixed;
+width:270px;
+padding:10px;
+margin-left:10%;
+display: flex;
+justify-content: center;
+}
+
+
+/*column2*/
+
+.column2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  width:270px;
+  height:80px;
+  margin-left:40%;
+  margin-top:450px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label2{
+  width:270px;
+  height:50px;
+  margin-left:40%;
+  margin-top:1050px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+}
+
+
+.card4{
+  width:270px;
+  height:400px;
+  margin-left:40%;
+  margin-top:1600px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card5{
+  width:270px;
+  height:400px;
+  margin-left:40%;
+  margin-top:2600px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card6{
+  width:270px;
+  height:400px;
+  margin-left:40%;
+  margin-top:3600px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 2;
+    position: absolute;
+}
+
+
+
+.card-image{
+  height:200px;
+  background-size:cover;
+  background-position:center;
+    border-radius:10px 10px 0px 0px;
+}
+
+.card-4{
+  background-image:url("../images/pencil.JPG");
+}
+
+.card-5{
+  background-image:url("../images/zelda.jpg");
+}
+
+.card-6{
+  background-image:url("../images/pins.JPG");
+}
+
+.card3:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card4:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card5:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card6:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.line2{
+  width:10px;
+  height:400vh;
+  background: black;
+  z-index: 0;
+position: fixed;
+top:0;
+}
+
+.margin2{
+height:300vh;
+z-index: 0;
+position: fixed;
+width:270px;
+padding:10px;
+margin-left:40%;
+display: flex;
+justify-content: center;
+}
+
+
+.column2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/*column3*/
+
+.column3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label3{
+  width:270px;
+  height:50px;
+  margin-left:70%;
+  margin-top:760px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+}
+
+.card7{
+  width:270px;
+  height:400px;
+  margin-left:70%;
+  margin-top:1300px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card8{
+  width:270px;
+  height:400px;
+  margin-left:70%;
+  margin-top:2300px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+.card9{
+  width:270px;
+  height:400px;
+  margin-left:70%;
+  margin-top:3300px;
+  background-color:#111;
+  border-radius:10px;
+  box-shadow: 10px  10px 12px black;
+  padding:10px;
+    transition:all 1s ease;
+    z-index: 2;
+    position: absolute;
+}
+
+
+
+.card-image2{
+  height:200px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position:center;
+    border-radius:10px 10px 0px 0px;
+}
+
+.card-7{
+  background-image:url("../images/champlain-college.jpg");
+}
+
+.card-8{
+  background-image:url("../images/mushroom.jpg");
+}
+
+.card-9{
+  background-image:url("../images/snowflake.jpg");
+}
+
+
+.card7:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card8:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.card9:hover{
+  cursor:pointer;
+    transform:scale(1.05);
+  transition:all 1s ease;
+  box-shadow: 10px  10px 12px black;
+}
+
+.line3{
+  width:10px;
+  height:400vh;
+  background: black;
+  z-index: 0;
+position: fixed;
+top:0;
+}
+
+.margin3{
+height:300vh;
+z-index: 0;
+position: fixed;
+width:270px;
+padding:10px;
+margin-left:70%;
+display: flex;
+justify-content: center;
+}
+
+
+.column3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
